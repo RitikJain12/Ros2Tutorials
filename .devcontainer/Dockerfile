@@ -51,6 +51,8 @@ COPY ./ros_entrypoint.sh /
 
 RUN chmod +x /ros_entrypoint.sh 
 
+RUN rosdep init && rosdep update
+
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 
 ENTRYPOINT ["/ros_entrypoint.sh"]

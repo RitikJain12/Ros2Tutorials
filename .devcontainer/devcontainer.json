@@ -26,7 +26,8 @@
                 "redhat.vscode-yaml",
                 "eamodio.gitlens",
                 "ms-vscode.cpptools",
-                "redhat.vscode-xml"
+                "redhat.vscode-xml",
+                "ms-vscode.cmake-tools"
             ],
             "settings": {
                 "editor.formatOnSave": true,
