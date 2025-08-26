@@ -39,6 +39,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-humble-rviz2 \
     ros-humble-turtlesim \
     '~nros-humble-rqt*' \
+    ros-humble-example-interfaces \
     && rm -rf /var/lib/apt/lists/*
 
 # install x11 packages
